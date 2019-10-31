@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.reportlistener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Sample Test Cases">
+		<classes>
+			<class name="com.traction.qa.testcases.LoginPageTest"></class>
+			<class name="com.traction.qa.testcases.HomePageTest"></class>
+		</classes>
+	</test>
+</suite>
